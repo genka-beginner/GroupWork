@@ -17,6 +17,14 @@ body {
     text-size-adjust: 100%;
 }
 
+a {
+     text-decoration: none;
+ }
+
+ul {
+     list-style: none;
+ }
+ 
 /*-------------------------
     グローバル
 -------------------------*/
