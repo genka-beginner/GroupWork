@@ -1,1 +1,37 @@
 @charset "UTF-8";
+
+/*-------------------------
+    初期値
+-------------------------*/
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: "Helvetica Neue", Arial, "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+    color: #333;
+    font-size: 1.6rem;
+    line-height: 2;
+    font-feature-settings: "palt"1;
+    text-size-adjust: 100%;
+}
+
+/*-------------------------
+    グローバル
+-------------------------*/
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+/*-------------------------
+    トップ
+-------------------------*/
+.top-topics {
+    display: flex;
+}
+
+.top-topic {
+    width: 400px;
+}
